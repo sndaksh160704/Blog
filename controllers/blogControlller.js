@@ -96,7 +96,7 @@ exports.updateBlogController = async (req, res) => {
   }
 };
 
-//SIngle Blog
+//Single Blog
 exports.getBlogByIdController = async (req, res) => {
   try {
     const { id } = req.params;
